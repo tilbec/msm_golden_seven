@@ -1,0 +1,16 @@
+<h1>Director Details</h1>
+
+<img src="<%= @director.image_url %>", width="200">
+
+<h4>Director Name</h4>
+<p><%= @director.name %></p>
+
+<h4>Director Date of Birth</h4>
+<p><%= @director.dob %></p>
+
+<h4>Director Bio</h4>
+<p><%= @director.bio %></p>
+
+<a href ="/directors">Back</a>
+<a href ="/directors/<%= @director.id %>/edit_form">Edit</a>
+<a href ="/delete_director/<%= @director.id %>">Delete</a>
